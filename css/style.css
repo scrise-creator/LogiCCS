@@ -74,7 +74,7 @@ a { color: var(--teal); }
   transform: rotate(-3deg);
 }
 .hero-content { position: relative; z-index: 2; max-width: 930px; }
-.hero-logo { width: 370px; max-width: 90%; margin-bottom: 28px; filter: drop-shadow(0 10px 25px rgba(0,0,0,0.2)); }
+.hero-logo { width: 220px; max-width: 90%; margin-bottom: 28px; filter: drop-shadow(0 10px 25px rgba(0,0,0,0.2)); }
 .hero-title { font-size: clamp(1.8rem, 4vw, 3.4rem); font-weight: 800; line-height: 1.16; margin: 0 auto 22px; }
 .hero-text { font-size: 1.22rem; max-width: 760px; margin: 0 auto 34px; opacity: 0.96; }
 .hero-button,
