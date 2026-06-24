@@ -1,41 +1,394 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>LogiCCS</title>
-    <meta charset="utf-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LogiCCS</title>
+
+<style>
+
+:root{
+    --navy:#2C3E50;
+    --teal:#468189;
+    --green:#83B2A7;
+    --light:#F5F3ED;
+    --gray:#D9D9D9;
+    --darkgray:#7C7C7C;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    background:var(--light);
+    color:var(--navy);
+    line-height:1.7;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:0 30px;
+}
+
+.hero{
+    background:linear-gradient(
+        135deg,
+        var(--navy),
+        var(--teal)
+    );
+    color:white;
+    min-height:75vh;
+    display:flex;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content{
+    width:100%;
+}
+
+.hero-logo{
+    width:180px;
+    margin-bottom:30px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+    font-weight:700;
+}
+
+.hero p{
+    max-width:900px;
+    margin:auto;
+    font-size:1.3rem;
+    opacity:0.95;
+}
+
+.navbar{
+    background:white;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 12px rgba(0,0,0,0.08);
+}
+
+.navbar ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.navbar a{
+    display:block;
+    padding:20px;
+    text-decoration:none;
+    color:var(--navy);
+    font-weight:600;
+}
+
+.navbar a:hover{
+    color:var(--teal);
+}
+
+section{
+    padding:80px 0;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2.4rem;
+}
+
+.card{
+    background:white;
+    padding:35px;
+    border-radius:16px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.08);
+}
+
+.grid{
+    display:grid;
+    gap:25px;
+}
+
+.two-columns{
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+}
+
+.partner-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.partner{
+    background:white;
+    height:120px;
+    border-radius:16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:600;
+    box-shadow:0 4px 20px rgba(0,0,0,0.08);
+}
+
+.news-card{
+    background:white;
+    border-left:6px solid var(--teal);
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.08);
+}
+
+.publication-card{
+    background:white;
+    border-left:6px solid var(--green);
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.08);
+}
+
+.footer{
+    background:var(--navy);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.footer p{
+    opacity:0.9;
+}
+
+.highlight{
+    color:var(--green);
+}
+
+.cta{
+    margin-top:40px;
+}
+
+.cta a{
+    display:inline-block;
+    background:white;
+    color:var(--navy);
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:50px;
+    font-weight:700;
+}
+
+.cta a:hover{
+    background:var(--light);
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+.hero p{
+    font-size:1.1rem;
+}
+
+}
+
+</style>
 </head>
+
 <body>
+
+<header class="hero">
+
+<div class="container hero-content">
+
+<!-- Lägg projektloggan här senare -->
+<!-- <img src="logo.png" class="hero-logo"> -->
 
 <h1>LogiCCS</h1>
 
-<nav>
-    <a href="#about">About</a> |
-    <a href="#partners">Partners</a> |
-    <a href="#publications">Publications</a> |
-    <a href="#news">News</a> |
-    <a href="#contact">Contact</a>
-</nav>
-
-<hr>
-
-<h2 id="about">About</h2>
 <p>
-LogiCCS is a project focused on ...
+Efficient and sustainable maritime infrastructure for CCS logistics
+in the Nordic and Baltic countries
 </p>
 
-<h2 id="partners">Partners</h2>
+<div class="cta">
+<a href="#about">Explore the Project</a>
+</div>
+
+</div>
+
+</header>
+
+<nav class="navbar">
 <ul>
-    <li>RISE</li>
+<li><a href="#about">About</a></li>
+<li><a href="#partners">Partners</a></li>
+<li><a href="#publications">Publications</a></li>
+<li><a href="#news">News</a></li>
+<li><a href="#contact">Contact</a></li>
 </ul>
+</nav>
 
-<h2 id="publications">Publications</h2>
-<p>Coming soon.</p>
+<section id="about">
 
-<h2 id="news">News</h2>
-<p>Website launched.</p>
+<div class="container">
 
-<h2 id="contact">Contact</h2>
-<p>Contact information coming soon.</p>
+<h2>About the Project</h2>
+
+<div class="card">
+
+<p>
+LogiCCS addresses one of the key challenges for large-scale carbon
+capture and storage deployment: developing efficient and sustainable
+maritime logistics infrastructure for CO₂ transport in the Nordic
+and Baltic region.
+</p>
+
+<br>
+
+<p>
+The project explores future transport chains, infrastructure needs,
+system integration, sustainability aspects and regional cooperation
+required to enable cost-efficient CCS deployment.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="partners">
+
+<div class="container">
+
+<h2>Partners</h2>
+
+<div class="partner-grid">
+
+<div class="partner">RISE</div>
+<div class="partner">Partner</div>
+<div class="partner">Partner</div>
+<div class="partner">Partner</div>
+
+</div>
+
+<p style="text-align:center;margin-top:30px;">
+Partner logos will be added shortly.
+</p>
+
+</div>
+
+</section>
+
+<section id="publications">
+
+<div class="container">
+
+<h2>Publications</h2>
+
+<div class="publication-card">
+
+<h3>Coming Soon</h3>
+
+<p>
+Scientific publications, reports, policy briefs and project
+deliverables will be published here.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="news">
+
+<div class="container">
+
+<h2>Latest News</h2>
+
+<div class="grid two-columns">
+
+<div class="news-card">
+
+<h3>Project Website Launch</h3>
+
+<p>
+The official LogiCCS website is now online.
+</p>
+
+</div>
+
+<div class="news-card">
+
+<h3>Project Activities</h3>
+
+<p>
+Updates, events and milestones from the project will be shared here.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="container">
+
+<h2>Contact</h2>
+
+<div class="card">
+
+<p>
+<strong>Project Coordinator</strong>
+</p>
+
+<p>
+RISE Research Institutes of Sweden
+</p>
+
+<p>
+Email: sara.kilicaslan@ri.se
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<p>
+Funded through the Clean Energy Transition Partnership (CETPartnership). Co-funded by the European Union
+</p>
+
+<br>
+
+<p>
+© LogiCCS Project
+</p>
+
+</footer>
 
 </body>
 </html>
