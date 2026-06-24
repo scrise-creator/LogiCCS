@@ -325,30 +325,23 @@ gap:35px;
 
 }
 
-.objective-card{
-
-background:white;
-
-padding:35px;
-
-border-radius:18px;
-
-box-shadow:0 15px 35px rgba(0,0,0,.08);
-
-transition:.3s;
-
+.objective-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.objective-card:hover{
-
-transform:translateY(-8px);
-
+.objective-card img {
+  width: 150px;
+  height: 110px;
+  object-fit: contain;
+  margin-bottom: 28px;
 }
 
-.objective-card img{
-
-height:80px;
-
-margin-bottom:20px;
-
+.objective-card h3 {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
