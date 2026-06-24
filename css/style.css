@@ -213,3 +213,33 @@ a { color: var(--teal); }
   .facts-grid, .objective-grid, .partner-grid, .two-cards { grid-template-columns: 1fr; }
   .section { padding: 64px 0; }
 }
+.glance-section {
+  background: #F5F3ED;
+  padding: 50px 0;
+}
+
+.glance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 20px;
+}
+
+.glance-card {
+  background: white;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(44, 62, 80, 0.08);
+  border-top: 5px solid #468189;
+}
+
+.glance-card span {
+  display: block;
+  color: #7C7C7C;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.glance-card strong {
+  color: #2C3E50;
+  font-size: 1.05rem;
+}
