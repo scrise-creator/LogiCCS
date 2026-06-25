@@ -77,24 +77,27 @@ a { color: var(--teal); }
 .hero-logo { width: 220px; max-width: 90%; margin-bottom: 25px; filter: drop-shadow(0 10px 25px rgba(0,0,0,0.2)); }
 .hero-title { font-size: clamp(1.8rem, 4vw, 3.4rem); font-weight: 800; line-height: 1.16; margin: 0 auto 22px; }
 .hero-text { font-size: 1.22rem; max-width: 760px; margin: 0 auto 34px; opacity: 0.96; }
+.hero .btn,
 .hero-button,
-.cta-button,
-.btn {
-  background: #468189;
-  color: white;
+.cta-button {
+  display: inline-block;
+  margin-top: 34px;
   padding: 16px 34px;
+  background: #ffffff;
+  color: #2C3E50;
   border-radius: 999px;
   text-decoration: none;
-  font-weight: 700;
-  display: inline-block;
-  transition: 0.2s ease;
+  font-weight: 800;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+  transition: all 0.2s ease;
 }
 
+.hero .btn:hover,
 .hero-button:hover,
-.cta-button:hover,
-.btn:hover {
+.cta-button:hover {
   background: #83B2A7;
   color: #2C3E50;
+  transform: translateY(-2px);
 }
 
 .section { padding: 86px 0; }
