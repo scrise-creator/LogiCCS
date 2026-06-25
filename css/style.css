@@ -125,6 +125,7 @@ a { color: var(--teal); }
     font-size: 0.82rem;
     color: #7C7C7C;
     line-height: 1.4;
+  }
 
 .objectives-section { background: #eef4f2; }
 .objectives-section .eyebrow, .objectives-section h2 { text-align: center; }
