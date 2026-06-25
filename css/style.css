@@ -132,7 +132,7 @@ a {
   text-align: center;
   color: var(--white);
   background:
-    linear-gradient(135deg, rgba(44,62,80,0.88), rgba(70,129,137,0.82)),
+   linear-gradient(rgba(25,38,50,0.82), rgba(25,38,50,0.82)),
     radial-gradient(circle at 20% 20%, rgba(131,178,167,0.35), transparent 35%),
     var(--navy);
   overflow: hidden;
