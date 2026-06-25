@@ -119,6 +119,12 @@ a { color: var(--teal); }
 .fact-card { min-height: 150px; border-top: 5px solid var(--teal); }
 .fact-card span { display: block; color: var(--darkgray); font-weight: 800; text-transform: uppercase; font-size: 0.78rem; letter-spacing: 0.08em; }
 .fact-card strong { display: block; margin-top: 14px; font-size: 1.05rem; }
+.fact-card small {
+    display: block;
+    margin-top: 14px;
+    font-size: 0.82rem;
+    color: #7C7C7C;
+    line-height: 1.4;
 
 .objectives-section { background: #eef4f2; }
 .objectives-section .eyebrow, .objectives-section h2 { text-align: center; }
