@@ -131,10 +131,15 @@ a {
   padding: 90px 20px;
   text-align: center;
   color: var(--white);
+
   background:
-   linear-gradient(rgba(25,38,50,0.82), rgba(25,38,50,0.82)),
-    radial-gradient(circle at 20% 20%, rgba(131,178,167,0.35), transparent 35%),
-    var(--navy);
+    linear-gradient(rgba(25,38,50,0.72), rgba(25,38,50,0.72)),
+    url("../images/map_gray.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   overflow: hidden;
 }
 
