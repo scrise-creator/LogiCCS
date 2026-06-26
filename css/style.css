@@ -553,3 +553,20 @@ a {
     padding: 64px 0;
   }
 }
+.funding-logos{
+    display:flex;
+    align-items:center;
+    gap:28px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+.cet-logo{
+    height:58px;
+    width:auto;
+}
+
+.eu-logo{
+    height:58px;
+    width:auto;
+}
