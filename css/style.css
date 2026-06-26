@@ -413,11 +413,11 @@ a {
   padding: 58px 0 24px;
 }
 
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 70px;
-  align-items: start;
+.footer-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:80px;
+    align-items:start;
 }
 
 .footer-logo {
