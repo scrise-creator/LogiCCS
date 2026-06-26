@@ -421,7 +421,7 @@ a {
 }
 
 .footer-logo {
-  width: 210px;
+  width: 170px;
   margin-bottom: 18px;
   filter: brightness(0) invert(1);
 }
@@ -467,7 +467,7 @@ a {
   max-width: 190px;
   max-height: 90px;
   object-fit: contain;
-  margin-bottom: 22px;
+  margin-bogttom: 22px;
 }
 
 .modal-country {
